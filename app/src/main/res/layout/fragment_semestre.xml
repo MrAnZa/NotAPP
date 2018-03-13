@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ContenedorSemestre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zamora.notapp.SemestreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/C1"
+        android:labelFor="@+id/etc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/c1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    <EditText
+        android:id="@id/etc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/C1"
+        android:layout_alignBottom="@+id/C1"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/C1"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/C2"
+        android:labelFor="@+id/etc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etc1"
+        android:layout_marginTop="32dp"
+        android:layout_toStartOf="@+id/etc1"
+        android:text="@string/c2"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    <EditText
+        android:id="@+id/etc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/C2"
+        android:layout_alignBottom="@+id/C2"
+        android:layout_alignStart="@+id/etc1"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/C3"
+        android:labelFor="@+id/etc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/C2"
+        android:layout_below="@+id/etc2"
+        android:layout_marginTop="31dp"
+        android:text="@string/c3"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    <EditText
+        android:id="@id/etc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/C3"
+        android:layout_alignBottom="@+id/C3"
+        android:layout_alignStart="@+id/etc2"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnSemestre"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etc3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/botonsemestre" />
+
+    <TextView
+        android:id="@+id/etsr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSemestre"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/btnSemestre"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@android:color/holo_green_dark" />
+</RelativeLayout>

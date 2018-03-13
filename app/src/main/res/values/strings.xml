@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NotAPP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="autor">Andrés Felipe Zamora Luna</string>
+    <string name="email">andreszamora1998@gmail.com</string>
+    <string name="about">Acerca de ...</string>
+    <string name="c1">Nota Corte 1</string>
+    <string name="c2">Nota Corte 2</string>
+    <string name="c3">Nota Corte 3</string>
+    <string name="botonsemestre">Calcular</string>
+</resources>
